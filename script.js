@@ -71,9 +71,11 @@ document.addEventListener("DOMContentLoaded", function () {
 					<span class="font-bold">${inputedEmail}</span>. Please open it
 					and click the button inside to confirm your subscription.
 				</p>
-				<button class="text-white bg-[#36384E] rounded-lg p-3 mt-5">
+                <a href="/">
+				<button class="text-white bg-[#36384E] rounded-lg p-3 mt-5 w-full">
 					Dismiss message
 				</button>
+                </a>
 			</div>
         `
 		);
